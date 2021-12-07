@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Drive() {
   const history = useHistory();
-  const URL = "http://localhost:9000";
+  const URL = "https://s3-react-backend.herokuapp.com";
   const [selectedFile, setSelectedFile] = useState(null);
   const [keys, setKeys] = useState([]);
 
