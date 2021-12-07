@@ -34,7 +34,7 @@ function Register() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username: email, password: password, firstName: firstName, lastName:lastName }),
     };
-    console.log(email, password);
+    // console.log(email, password);
     fetch(`${URL}/user/register`, requestOptions)
       .then((response) => response.json())
       .then((data) => {
