@@ -9,6 +9,7 @@ import Login from './screens/login';
 import Drive from './screens/drive';
 import Register from './screens/register';
 import Logout from './components/logout';
+import Home from './screens/home';
 
 
 
@@ -18,7 +19,7 @@ function App() {
       <Switch>
         
       <Route path="/" exact>
-            hello
+            <Home/>
           </Route>
           <Route path="/login">
             <Login/>
