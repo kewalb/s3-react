@@ -98,9 +98,12 @@ function Drive() {
           {keys.map((key, index) => (
             <Col sm={4} key={index}>
               <a href={`${URL}/image/${key}`} target="_parent">
-                <object
-                  data={`${URL}/image/${key}`}
-                  
+
+                <iframe
+                  src={`${URL}/image/${key}`}
+                  title={key}
+                  frameborder="0"
+                  scrolling="no"
                   width="100%"
                   height="100%"
                   className="frame"
