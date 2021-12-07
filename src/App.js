@@ -5,7 +5,6 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Header from './components/header';
 import Login from './screens/login';
 import Drive from './screens/drive';
 import Register from './screens/register';
